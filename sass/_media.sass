@@ -1,0 +1,117 @@
+@media (min-width: 533px) 
+  .category__item
+    width: 70%
+    margin: 1rem auto
+
+  .offer__element
+    width: 70%
+    margin: 0 auto 2rem
+
+
+@media (max-width: 991px) 
+  .nav__list-item
+    width: 100%
+    text-align: center
+
+
+@media (min-width: 992px) 
+  .nav
+    &__toggle
+      display: none
+  
+    &__list 
+      flex-direction: row
+      justify-content: space-between
+      position: static
+      height: auto
+      transform: translateX(0)
+
+      &-link
+        padding: 1rem 0
+
+    &__socials-link
+      padding: 0 .3rem
+      font-size: 1.4rem
+  
+  .header
+    background-image: url('../img/elements/header-big.jpg')
+
+  .carousel
+    &__item
+      width: 80%
+
+  .blog
+    grid-template-columns: 70% 30%
+    grid-template-rows: 1fr
+
+    &__title
+      text-align: left
+
+  .article
+    &__header
+      height: 500px
+
+    &__img--1
+      background-image: url('../img/posts/article1-big.jpg')
+
+    &__img--2
+      background-image: url('../img/posts/article2-big.jpg')
+
+    &__img--3
+      background-image: url('../img/posts/article3-big.jpg')
+
+    &__img--4
+      background-image: url('../img/posts/article4-big.jpg')
+
+    &__info 
+      width: 60%
+      padding: 1rem 2rem
+      font-size: 1rem
+  
+  .category__item
+    width: 100%
+    margin: .8rem 0
+
+  .offer
+    &__element
+      width: 100%
+      margin: 0 0 2rem
+
+    &__img
+      &--1
+        background-image: url('../img/offer/offer1-big.jpg')
+
+      &--2
+        background-image: url('../img/offer/offer2-big.jpg')
+
+      &--3
+        background-image: url('../img/offer/offer3-big.jpg')
+  
+  // newsletter
+  .newsletter
+    text-align: left
+
+    &__element
+      width: 80%
+
+    &__btn
+      width: 80%
+      margin: 1rem 0 0
+
+  // popular tags
+  .popular-tags
+    text-align: left
+
+    &__elements
+      width: 90%
+
+  // footer
+  .footer
+    &__container
+      flex-direction: row
+    
+    &__section
+      width: 25%
+
+    &__instagram-element
+      width: 25%
