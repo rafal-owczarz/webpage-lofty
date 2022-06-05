@@ -1,7 +1,6 @@
 AOS.init();
 
 $('.nav__toggle').on('click', () => {
-  console.log('ok');
   $('.nav__toggle').toggleClass('active');
   $('.nav__list').toggleClass('active');
 });
